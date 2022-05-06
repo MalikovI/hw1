@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FF9800"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first fragment" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
